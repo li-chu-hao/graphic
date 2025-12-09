@@ -32,6 +32,9 @@ arrows(x0 = bp, y0 = means, # 误差线下端点
        angle = 90, code = 3, length = 0.1)
 ```
 
+<img width="437" height="508" alt="image" src="https://github.com/user-attachments/assets/7c51873b-20cd-4aae-b6d7-82319fb00512" />
+
+
 ### 📊 方法二：使用ggplot2（手动计算统计量）
 这是**最常用且控制力最强**的方法。你需要先使用`dplyr`等包将数据处理为包含**均值、标准差（或标准误）** 的汇总表。
 
